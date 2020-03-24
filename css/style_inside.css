@@ -1,0 +1,205 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Roboto;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   
+   
+}
+/* ............................................................... */
+
+
+/* left */
+.container .content-left{
+    text-align: left;   
+    
+    
+}
+.container .content-left a{
+    display: grid;
+    
+    margin-left: 190px;
+    margin-top: -100px; 
+    font-size: 30px;
+    float: left;
+    letter-spacing: 0;
+    color: #007AFF;
+    opacity: 1;
+    width: 71px;
+    height: 28px;
+
+}
+.container .content-left img{
+    float: left;
+    margin-left: 48px;
+    width: 40%;      
+    height: auto ;
+
+}
+.content{
+    float:left;
+   
+}
+
+/* ............................................................... */
+
+
+/* right */
+
+.container h1{
+    font-size:60px;
+   
+    font: Medium 60px/71px Roboto;
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    margin-left: 1000px;
+    width: 100%;
+    height: 71px;
+    text-align: left;
+    width: 795px;
+    height: 71px;
+}
+.container pre{
+    text-align: left;
+    font-weight: 0px;
+    margin-top: 24px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 23px ;
+    color: #707070;
+    opacity: 1;
+    width: 795px;
+    height: 71px;
+    margin-left: 936px;
+}
+.container .content-right{
+    margin-top: 208px;
+    margin-left: 48px;
+    text-align: left;
+    
+}
+/* ............................................................... */
+
+
+
+/* Content-Spec */
+
+.content-selection{
+    width: 782px;
+    height: 498px;
+    margin-top: 700px;
+    margin-left: 48px;
+}
+.content-selection h1{ font-size: 60px; text-align: left;}
+
+ .selection{
+    margin-left: 1000px;
+    margin-top:24px;
+    border: 2px solid #CECED2;
+    border-radius: 8px;
+    width: 782px;
+    height: 123px;
+}
+.selection .input{
+    font-size: 30px;
+    color: #757575;
+    text-align: left;
+    margin-left: 36px;
+    
+}
+.selection:hover{
+    color:#007AFF;
+    border: 2px solid #007AFF;
+    border-radius: 8px;
+    background: #007AFF1A 0% 0% no-repeat padding-box;
+}
+.selection .input:hover{
+    color:#007AFF;
+    
+}
+
+/* ............................................................... */
+
+
+/* Content-price */
+
+.content-price{
+    margin-top: 48px;
+    width: 322px;
+    height: 240px;
+    margin-left: 48px;
+    text-align: center;
+}
+
+.content-price h1{
+    font-size:48px;
+}
+.content-price h2{
+    font-size:60px;
+    width: 322px;
+    height: 71px;
+    text-align: center;
+}
+.content-price .selection{
+    width: 168px;
+    height: 57px;
+    background: #007AFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+
+}
+
+.content-price .selection .input{
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-size: 28px;
+}
+
+/* ............................................................... */
+/* Footer */
+footer.inside{
+    text-align:left;
+    margin-top: 100px;
+    margin-left: -1000px;
+}
+
+/* ............................................................... */
+
+/* Confirm Order */
+
+.content-fin h1{
+    text-align: center;
+    font-size:48px;
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    margin-top: 300px;
+}
+.content-fin p{
+    text-align:center;
+    font-size: 28px;
+    color: #757575;
+    opacity: 1;
+    margin-top: 10px;
+    font: Light 28px/33px Roboto;
+}
+.content-fin a{
+    text-align: center;
+    font: Bold 28px/33px Roboto;
+    letter-spacing: 0;
+    color: #007AFF;
+   
+}
+.content-fin .link{
+    margin-top: 50px;
+}

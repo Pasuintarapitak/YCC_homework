@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Roboto;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   
+   
+}
+header{
+    width: 100%;
+    height: 66px;
+    background: #e4e4e4 ;  
+    text-align: center;
+    border: 3px black;
+    border: 1px solid rgb(199, 199, 199);
+    backdrop-filter: blur(34px);
+    
+}
+ul.menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+ul.menu li{
+    margin-top: 17px;
+    margin-bottom: 14px;
+
+}
+ul.menu li a{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: #333333;
+    transition: .4s ease-in-out;
+    padding: 5px 10px;
+    
+    
+}
+ul.menu li a:hover{
+    color: aqua;
+    padding: 5px 10px;
+}
+
+* h1{
+    font-size: 84px;
+    text-decoration: none;
+    text-align: center;
+    font: Medium 84px/99px Roboto;
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+}
+/* Section */
+
+/* Top */
+.content{
+    width:100%;
+    height: auto;
+}
+.content-Mac{
+    text-align: center;
+}
+.content-Mac p:first-child{
+    font-size: 30px;
+   
+    letter-spacing: 0;
+    color: #FF9500;
+    opacity: 1;
+    margin-top: 72px;
+}
+.content-Mac h1{
+    font-size: 84px;
+    
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    margin-bottom: -30px;
+
+}
+.content-Mac p{
+  
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;    
+    margin-bottom: 0px;
+}
+.content-Mac a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #007AFF;
+}
+.content-img-mac{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+/* Medium */
+
+ .content-Sur-Sw{   /* Surface*/
+    text-align: center;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-Sur-Sw .content-sur a h1{
+    
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.content-Sur-Sw .content-sur p{
+    position: absolute;
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;    
+    margin-top: 200px;
+    margin-left: 300px;
+    
+}
+.content-Sw{ /*Swift*/
+    float: right;
+    margin-top: 200px;
+    
+}
+.content-Sur-Sw .content-Sw a h1{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+}
+.content-Sur-Sw .content-Sw p{
+    position: absolute;
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;    
+    margin-top: 50px;
+    margin-left: 380px;
+}
+
+/* Content Fin */
+.content-xps-zen{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    float: left;
+    margin-top: 200px;
+}
+.content-xps-zen .content-xps a h1{/* XPS */
+    
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 380px;
+}              
+.content-xps-zen .content-xps p{
+    position: absolute;
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;    
+   
+    margin-left: 250px;
+}
+
+.content-zen{ /*Zenbook*/
+    float: right;
+    margin-top: 150px;
+    
+}
+.content-xps-zen .content-zen a h1{
+    position: absolute;
+    margin-top:  -250px;
+    margin-left: 380px;
+}
+.content-xps-zen .content-zen a p{
+    position: absolute;
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;    
+    margin-top: -150px;
+    margin-left: 400px;
+}
+.content-xps-zen .content-zen img{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -200px;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1900px;
+  
+    
+}
+.container pre{
+    font-size: 16px;
+    color:#757575;
+    
+    font: Light 16px/19px Roboto;
+    letter-spacing: 0;
+    color: #757575;
+    opacity: 1;
+}
